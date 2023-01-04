@@ -8,7 +8,6 @@ body {
     background: #ADCAD6;
     font-family: 'Quicksand', sans-serif;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
@@ -53,7 +52,7 @@ body {
     outline: none;
 }
 
-.user-list {
+.user-list, #no-matches {
     background-color: #fff;
     list-style-type: none;
     margin: 0;
@@ -91,4 +90,9 @@ body {
 
 .user-list li.hide {
     display: none;
+}
+
+#no-matches {
+    display: none;
+    text-align: center;
 }
